@@ -19,10 +19,22 @@
 #     print(c)
 
 
-target = 420
+# target = 420
 
-for c in range(1, 500):
-    print(c)
-    if c == target:
-        print("Happy Weed day")
+# for c in range(1, 500):
+#     print(c)
+#     if c == target:
+#         print("Happy Weed day")
+#         break
+
+
+password = ""
+
+while password != "pass123":
+    password = input('Input password: ')
+    if password == "pass123":
         break
+    print("Wrong password")
+
+
+print('Logged in!')
